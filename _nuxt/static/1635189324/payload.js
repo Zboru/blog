@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{articles:[{slug:"aws-ec2",description:"Kompilacja średnio-większego projektu na instancji t2.micro",title:"JavaScript heap out of memory - kompilacja projektu na EC2 AWS"}]}],fetch:{},mutations:void 0});
