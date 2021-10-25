@@ -17,7 +17,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/blog/favicon.ico' }
     ]
   },
 
@@ -39,10 +39,18 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts'
   ],
 
   tailwindcss: {
     configPath: 'tailwind.config.js',
+  },
+
+  googleFonts: {
+    download: true,
+    families: {
+      'Space+Grotesk': [400,600]
+    }
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
